@@ -99,4 +99,3 @@ def download(kanda, sarga):
 # download(1, 5)
 # Sarga 5 Downloaded
 
-download(4, 20)

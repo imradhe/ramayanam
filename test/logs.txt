@@ -29,3 +29,10 @@
 {"file_name": "test/2.114.json", "error": "list index out of range"}
 {"file_name": "test/2.117.json", "error": "list index out of range"}
 {"file_name": "test/3.1.json", "error": "list index out of range"}
+{"file_name": "test/3.3.json", "error": "list index out of range"}
+{"file_name": "test/3.4.json", "error": "list index out of range"}
+{"file_name": "test/3.9.json", "error": "list index out of range"}
+{"file_name": "test/3.25.json", "error": "list index out of range"}
+{"file_name": "test/3.45.json", "error": "list index out of range"}
+{"file_name": "test/3.50.json", "error": "list index out of range"}
+{"file_name": "test/3.58.json", "error": "list index out of range"}

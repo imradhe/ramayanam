@@ -2,6 +2,7 @@
 
 <p align="center">
 	<a href="https://github.com/imradhe"><img alt="Devloper" src="https://img.shields.io/badge/Devloper-Radhe%20Shyam%20Salopanthula-Success.svg?style=flat-square"/></a>
+	<a href="https://github.com/imradhe/ramayanam/LICENSE"><img alt="License" src="https://img.shields.io/github/license/imradhe/ramayanam.svg?style=flat-square"/></a>
 	<a href="https://github.com/imradhe/ramayanam/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/imradhe/ramayanam.svg?style=flat-square"/></a>
 	<a href="https://github.com/imradhe/ramayanam/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/imradhe/ramayanam.svg?style=flat-square"/></a>
 	<a href="https://github.com/imradhe/ramayanam/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/imradhe/ramayanam/total.svg?style=flat-square"/></a>

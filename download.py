@@ -58,7 +58,7 @@ def download(kanda, sarga):
     except Exception as e:
         print(f"Error occurred: {e}")
         # Save the JSON data collected so far to a file
-        file_name = f"test/{kanda}.{sarga}.json"
+        file_name = f"slokas/{kanda}.{sarga}.json"
         with open(file_name, 'w', encoding='utf-8') as file:
             json.dump(slokas, file, ensure_ascii=False, indent=4)
         print(f"Partial JSON data saved to {file_name}.")
@@ -68,7 +68,7 @@ def download(kanda, sarga):
             'file_name': file_name,
             'error': str(e)
         }
-        with open('test/logs.txt', 'a') as log_file:
+        with open('slokas/logs.txt', 'a') as log_file:
             log_file.write(json.dumps(log_info) + '\n')
 
     # Close the progress bar

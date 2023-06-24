@@ -55,7 +55,15 @@ def dowload(kanda, sarga, total_slokas):
     print(f"JSON data saved to {file_name}.")
 
 # Example usage
-dowload(1, 1, 100)
+# Sarga 1 Downloaded
+# dowload(1, 1, 100)
+# Sarga 1 (text) verified
+
+# Sarga 2
 dowload(1, 2, 43)
+
+# Sarga 3
 dowload(1, 3, 38)
+
+# Sarga 3
 dowload(1, 4, 31)

@@ -1,5 +1,11 @@
 # Project Ramayanam
 
+<p align="center">
+	<a href="https://github.com/imradhe"><img alt="Devloper" src="https://img.shields.io/badge/Devloper-Radhe%20Shyam%20Salopanthula-Success.svg?style=flat-square"/></a>
+	<a href="https://github.com/imradhe/ramayanam/stargazers"><img alt="stars-shield" src="https://img.shields.io/github/stars/imradhe/ramayanam-api.svg?style=flat-square"/></a>
+	<a href="https://github.com/vedicscriptures/bhagavad-gita-api/network/members"><img alt="forks-shield" src="https://img.shields.io/github/forks/vedicscriptures/bhagavad-gita-api.svg?style=flat-square"/></a>
+	<a href="https://github.com/vedicscriptures/bhagavad-gita-api/graphs/traffic"><img alt="Total-Downlode" src="https://img.shields.io/github/downloads/vedicscriptures/bhagavad-gita-api/total.svg?style=flat-square"/></a>
+</p>
 Welcome to Project Ramayanam, an ambitious initiative to transcribe and digitize the original text of Valmiki Ramayanam in Sanskrit. The project aims to provide comprehensive resources including translations, transliterations, explanations, meanings, commentaries, and more for the ancient epic of Ramayana.
 
 ## Introduction

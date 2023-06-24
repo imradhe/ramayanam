@@ -99,7 +99,7 @@ for item in stats:
     total_slokas = item[2]
 
     # Print the kanda, sarga, and total_slokas
-    download(kanda, sarga, total_slokas)
+    download(kanda, sarga)
 
     # Update the overall progress bar
     overall_progress_bar.update(1)

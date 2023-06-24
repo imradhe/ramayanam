@@ -27,40 +27,7 @@ Stay tuned for the official launch announcement and follow our GitHub repository
 ## API Schema
 
 The API provides access to individual verses of Valmiki Ramayanam in the following schema:
-
-
-markdown
-Copy code
-# Project Ramayanam
-
-Welcome to Project Ramayanam, an ambitious initiative to transcribe and digitize the original text of Valmiki Ramayanam in Sanskrit. The project aims to provide comprehensive resources including translations, transliterations, explanations, meanings, commentaries, and more for the ancient epic of Ramayana.
-
-## Introduction
-
-Valmiki Ramayanam, also known as the Ramayana, is an ancient Indian epic attributed to the sage Valmiki. It narrates the story of Lord Rama and his journey to rescue his wife Sita from the demon king Ravana. The Ramayana holds great significance in Hindu mythology and has been revered for centuries for its moral teachings, philosophical insights, and devotion to righteousness.
-
-## Features
-
-- **Transcription**: Complete transcription of the original Valmiki Ramayanam text in Sanskrit.
-- **Translations**: English translations of the Sanskrit verses to make them accessible to a wider audience.
-- **Transliterations**: Romanized transliterations of the Sanskrit verses for easier reading and pronunciation.
-- **Meanings**: Detailed explanations and meanings of the verses to aid in understanding the context and symbolism.
-- **Commentaries**: Incorporation of traditional and scholarly commentaries on Valmiki Ramayanam to provide deeper insights.
-- **Chapter-wise Navigation**: Organized chapters and sections for easy navigation and reference.
-- **Search Functionality**: Ability to search for specific verses, keywords, or topics within the text.
-- **Interactive User Interface**: User-friendly interface with intuitive design for a seamless reading experience.
-- **Cross-references**: Links and references to related verses, events, characters, and concepts within the epic.
-
-## Upcoming Launch
-
-We are excited to announce that Project Ramayanam will soon be launched as an API and will also be available as web, Android, and iOS apps. With these platforms, we aim to reach a wider audience and make the valuable resources of Valmiki Ramayanam easily accessible to everyone.
-
-Stay tuned for the official launch announcement and follow our GitHub repository for updates on the progress.
-
-## API Schema
-
-The API provides access to individual verses of Valmiki Ramayanam in the following schema:
-
+```json
 {
 "id": "2.1.1",
 "script": "devanagari",
@@ -73,7 +40,7 @@ The API provides access to individual verses of Valmiki Ramayanam in the followi
 "translation": " <br/>Bharata set out for his maternal uncle's house. He took with him the sinless Satrughna who is always successful in destroying foes and on whom he had bestowed his love and affection.<br/>",
 "source": "https://www.valmiki.iitk.ac.in/content?language=dv&field_kanda_tid=2&field_sarga_value=1&field_sloka_value=1"
 }
-
+```
 ## Kanda and Sarga Information
 
 Here is the information regarding the Kandas and Sargas available in Valmiki Ramayanam:

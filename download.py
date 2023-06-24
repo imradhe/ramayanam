@@ -76,7 +76,7 @@ def download(kanda, sarga):
 
     if len(slokas) == total_slokas:
         # Save JSON data to a file
-        file_name = f"test/{kanda}.{sarga}.json"
+        file_name = f"slokas/{kanda}.{sarga}.json"
         with open(file_name, 'w', encoding='utf-8') as file:
             json.dump(slokas, file, ensure_ascii=False, indent=4)
 

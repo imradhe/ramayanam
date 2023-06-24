@@ -3,7 +3,18 @@ import json
 from bs4 import BeautifulSoup
 from tqdm import tqdm
 
-def download(kanda, sarga, total_slokas):
+def download(kanda, sarga):
+    # Load the stats from the JSON file
+    with open('stats.json', 'r') as f:
+        stats = json.load(f)
+
+    # Find the total_slokas for the given kanda and sarga
+    total_slokas = next((item[2] for item in stats if item[0] == kanda and item[1] == sarga), None)
+
+    if total_slokas is None:
+        print(f"No data found for kanda={kanda}, sarga={sarga}.")
+        return
+
     slokas = []
 
     # Set up tqdm progress bar
@@ -52,15 +63,27 @@ def download(kanda, sarga, total_slokas):
             json.dump(slokas, file, ensure_ascii=False, indent=4)
         print(f"Partial JSON data saved to {file_name}.")
 
-    # Save JSON data to a file
-    file_name = f"test/{kanda}.{sarga}.json"
-    with open(file_name, 'w', encoding='utf-8') as file:
-        json.dump(slokas, file, ensure_ascii=False, indent=4)
+        # Update the log file with the error information
+        log_info = {
+            'file_name': file_name,
+            'error': str(e)
+        }
+        with open('test/logs.txt', 'a') as log_file:
+            log_file.write(json.dumps(log_info) + '\n')
 
     # Close the progress bar
     progress_bar.close()
 
-    print(f"JSON data saved to {file_name}.")
+    if len(slokas) == total_slokas:
+        # Save JSON data to a file
+        file_name = f"test/{kanda}.{sarga}.json"
+        with open(file_name, 'w', encoding='utf-8') as file:
+            json.dump(slokas, file, ensure_ascii=False, indent=4)
+
+        print(f"JSON data saved to {file_name}.")
+    else:
+        print(f"JSON data collection stopped. Partial JSON data saved to {file_name}.")
+
 
 # Load the stats from the JSON file
 with open('stats.json', 'r') as f:

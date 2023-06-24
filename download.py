@@ -45,7 +45,7 @@ def dowload(kanda, sarga, total_slokas):
         progress_bar.update(1)
 
     # Save JSON data to a file
-    file_name = f"{kanda}.{sarga}.json"
+    file_name = f"slokas/{kanda}.{sarga}.json"
     with open(file_name, 'w', encoding='utf-8') as file:
         json.dump(slokas, file, ensure_ascii=False, indent=4)
 

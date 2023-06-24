@@ -15,7 +15,7 @@ def dowload(kanda, sarga, total_slokas):
         html = response.text
 
         soup = BeautifulSoup(html, 'html.parser')
-
+        
         # Select elements with the "field-content" class
         elements = soup.select('div.field-content')
 

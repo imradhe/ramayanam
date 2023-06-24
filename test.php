@@ -11,9 +11,9 @@ foreach ($slokas as $sloka) {
     echo "Kanda: " . $sloka['kanda'] . "<br>";
     echo "Sarga: " . $sloka['sarga'] . "<br>";
     echo "Sloka: " . $sloka['sloka'] . "<br>";
-    echo "Description: " . $sloka['description'] . "<br>";
-    echo "Text: " . $sloka['text'] . "<br>";
-    echo "Transliteration: " . $sloka['transliteration'] . "<br>";
+    echo "" . $sloka['description'] . "<br>";
+    echo "" . $sloka['text'] . "<br>";
+    echo "Meaning: " . $sloka['transliteration'] . "<br>";
     echo "Translation: " . $sloka['translation'] ."<br>";
     echo "Source: <a href='" . $sloka['source'] . "'>".$sloka['source']."</a> <br><br><br><br>";
 }

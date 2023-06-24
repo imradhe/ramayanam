@@ -24,7 +24,7 @@ def dowload(kanda, sarga, total_slokas):
 
         # Create the JSON object
         text = content[0]
-        transliteration = content[1]
+        meaning = content[1]
         translation = content[2]
         jsonObject = {
             'id': f"{kanda}.{sarga}.{sloka}",
@@ -34,7 +34,7 @@ def dowload(kanda, sarga, total_slokas):
             'sloka': sloka,
             'description': "",
             'text': text,
-            'transliteration': transliteration,
+            'meaning': meaning,
             'translation': translation,
             'source': url
         }

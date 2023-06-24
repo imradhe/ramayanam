@@ -1,6 +1,7 @@
 <?php
+error_reporting(0);
 // Read the JSON data from the file
-$jsonData = file_get_contents('slokas/'.$_GET["kanda"].'.'.$_GET["sarga"].'.json');
+$jsonData = file_get_contents('test/'.$_GET["kanda"].'.'.$_GET["sarga"].'.json');
 
 // Convert JSON data to array
 $slokas = json_decode($jsonData, true);

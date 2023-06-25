@@ -34,20 +34,22 @@ Stay tuned for the official launch announcement and follow our GitHub repository
 ## API Schema
 
 The API provides access to individual verses of Valmiki Ramayanam in the following schema:
+
 ```json
 {
-"id": "2.1.1",
-"script": "devanagari",
-"kanda": 2,
-"sarga": 1,
-"sloka": 1,
-"description": "",
-"text": "[Description of Rama's virtues Dasaratha contemplates to install Rama as heirapparent Invites kings and elders from towns and villages to seek their opinion.]<br/><br/>गच्छता मातुलकुलं भरतेन तदाऽनघ।<br/><br/>शत्रुघ्नो नित्यशत्रुघ्नो नीतः प्रीतिपुरस्कृतः।।2.1.1।।<br/><br/>",
-"meaning": "<br/>मातुलकुलम् maternal uncle's house, गच्छता set out, भरतेन by Bharata, तदा then, अनघ: sinless one, नित्यशत्रुघ्न: one who is always successful in destroying foes, शत्रुघ्न: Satrughna, प्रीतिपुरस्कृत: endowed with affection, नीत: taken.<br/>",
-"translation": " <br/>Bharata set out for his maternal uncle's house. He took with him the sinless Satrughna who is always successful in destroying foes and on whom he had bestowed his love and affection.<br/>",
-"source": "https://www.valmiki.iitk.ac.in/content?language=dv&field_kanda_tid=2&field_sarga_value=1&field_sloka_value=1"
+  "id": "2.1.1",
+  "script": "devanagari",
+  "kanda": 2,
+  "sarga": 1,
+  "sloka": 1,
+  "description": "",
+  "text": "[Description of Rama's virtues Dasaratha contemplates to install Rama as heirapparent Invites kings and elders from towns and villages to seek their opinion.]<br/><br/>गच्छता मातुलकुलं भरतेन तदाऽनघ।<br/><br/>शत्रुघ्नो नित्यशत्रुघ्नो नीतः प्रीतिपुरस्कृतः।।2.1.1।।<br/><br/>",
+  "meaning": "<br/>मातुलकुलम् maternal uncle's house, गच्छता set out, भरतेन by Bharata, तदा then, अनघ: sinless one, नित्यशत्रुघ्न: one who is always successful in destroying foes, शत्रुघ्न: Satrughna, प्रीतिपुरस्कृत: endowed with affection, नीत: taken.<br/>",
+  "translation": " <br/>Bharata set out for his maternal uncle's house. He took with him the sinless Satrughna who is always successful in destroying foes and on whom he had bestowed his love and affection.<br/>",
+  "source": "https://www.valmiki.iitk.ac.in/content?language=dv&field_kanda_tid=2&field_sarga_value=1&field_sloka_value=1"
 }
 ```
+
 ## Kanda and Sarga Information
 
 Here is the information regarding the Kandas and Sargas available in Valmiki Ramayanam:
